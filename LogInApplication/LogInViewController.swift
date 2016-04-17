@@ -41,6 +41,8 @@ class LogInViewController: UIViewController {
         {
         
         self.logOutButton.hidden = false
+            
+        self.playButton.hidden = true
         }
      
         
@@ -110,6 +112,7 @@ class LogInViewController: UIViewController {
         CURRENT_USER.unauth()
         NSUserDefaults.standardUserDefaults().setValue(nil, forKey: "uid")
         self.logOutButton.hidden = true
+        self.playButton.hidden = true
         
     }
     

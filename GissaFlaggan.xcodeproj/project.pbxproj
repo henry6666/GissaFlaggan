@@ -27,6 +27,10 @@
 		BA2717781CBE7DA4009FC4B6 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2717771CBE7DA4009FC4B6 /* BaseService.swift */; };
 		BA27177E1CBE82E1009FC4B6 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27177D1CBE82E1009FC4B6 /* LogInViewController.swift */; };
 		BA2717801CBE82F0009FC4B6 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27177F1CBE82F0009FC4B6 /* CreateAccountViewController.swift */; };
+		BA9D34181CC429E500C3CF3E /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9D34141CC429E500C3CF3E /* Background.png */; };
+		BA9D34191CC429E500C3CF3E /* GPS.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9D34151CC429E500C3CF3E /* GPS.png */; };
+		BA9D341A1CC429E500C3CF3E /* Stop.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9D34161CC429E500C3CF3E /* Stop.png */; };
+		BA9D341B1CC429E500C3CF3E /* timer.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9D34171CC429E500C3CF3E /* timer.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +56,10 @@
 		BA2717771CBE7DA4009FC4B6 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		BA27177D1CBE82E1009FC4B6 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		BA27177F1CBE82F0009FC4B6 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		BA9D34141CC429E500C3CF3E /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		BA9D34151CC429E500C3CF3E /* GPS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPS.png; sourceTree = "<group>"; };
+		BA9D34161CC429E500C3CF3E /* Stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stop.png; sourceTree = "<group>"; };
+		BA9D34171CC429E500C3CF3E /* timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,10 @@
 				BA17D55C1CBFB51400DD3929 /* music.mp3 */,
 				BA27175D1CBE7CF5009FC4B6 /* Main.storyboard */,
 				BA2717601CBE7CF5009FC4B6 /* Assets.xcassets */,
+				BA9D34141CC429E500C3CF3E /* Background.png */,
+				BA9D34151CC429E500C3CF3E /* GPS.png */,
+				BA9D34161CC429E500C3CF3E /* Stop.png */,
+				BA9D34171CC429E500C3CF3E /* timer.png */,
 				BA2717621CBE7CF5009FC4B6 /* LaunchScreen.storyboard */,
 				BA27176B1CBE7D27009FC4B6 /* Firebase.framework */,
 				BA2717651CBE7CF5009FC4B6 /* Info.plist */,
@@ -178,8 +190,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9D341A1CC429E500C3CF3E /* Stop.png in Resources */,
+				BA9D34191CC429E500C3CF3E /* GPS.png in Resources */,
 				BA2717641CBE7CF5009FC4B6 /* LaunchScreen.storyboard in Resources */,
 				BA17D55D1CBFB51400DD3929 /* music.mp3 in Resources */,
+				BA9D34181CC429E500C3CF3E /* Background.png in Resources */,
+				BA9D341B1CC429E500C3CF3E /* timer.png in Resources */,
 				BA2717611CBE7CF5009FC4B6 /* Assets.xcassets in Resources */,
 				BA27175F1CBE7CF5009FC4B6 /* Main.storyboard in Resources */,
 			);
