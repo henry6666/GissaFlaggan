@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA17D55B1CBFA1F300DD3929 /* GissaFlagganViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA17D55A1CBFA1F300DD3929 /* GissaFlagganViewController.swift */; };
+		BA17D55D1CBFB51400DD3929 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA17D55C1CBFB51400DD3929 /* music.mp3 */; };
+		BA17D55F1CBFB5B000DD3929 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA17D55E1CBFB5B000DD3929 /* AVFoundation.framework */; };
+		BA17D5611CBFC50500DD3929 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA17D5601CBFC50500DD3929 /* AudioToolbox.framework */; };
+		BA17D5631CBFC7A400DD3929 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA17D5621CBFC7A400DD3929 /* MapKit.framework */; };
+		BA17D5651CBFC7C500DD3929 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA17D5641CBFC7C500DD3929 /* CoreLocation.framework */; };
+		BA17D5671CBFCAF000DD3929 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA17D5661CBFCAF000DD3929 /* LocationViewController.swift */; };
+		BA27175A1CBE7CF5009FC4B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2717591CBE7CF5009FC4B6 /* AppDelegate.swift */; };
+		BA27175F1CBE7CF5009FC4B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA27175D1CBE7CF5009FC4B6 /* Main.storyboard */; };
+		BA2717611CBE7CF5009FC4B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2717601CBE7CF5009FC4B6 /* Assets.xcassets */; };
+		BA2717641CBE7CF5009FC4B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2717621CBE7CF5009FC4B6 /* LaunchScreen.storyboard */; };
+		BA27176C1CBE7D27009FC4B6 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA27176B1CBE7D27009FC4B6 /* Firebase.framework */; };
+		BA27176E1CBE7D38009FC4B6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA27176D1CBE7D38009FC4B6 /* SystemConfiguration.framework */; };
+		BA2717701CBE7D42009FC4B6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA27176F1CBE7D42009FC4B6 /* Security.framework */; };
+		BA2717721CBE7D4A009FC4B6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2717711CBE7D4A009FC4B6 /* CFNetwork.framework */; };
+		BA2717741CBE7D57009FC4B6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2717731CBE7D57009FC4B6 /* libc++.tbd */; };
+		BA2717761CBE7D65009FC4B6 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2717751CBE7D65009FC4B6 /* libicucore.tbd */; };
+		BA2717781CBE7DA4009FC4B6 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2717771CBE7DA4009FC4B6 /* BaseService.swift */; };
+		BA27177E1CBE82E1009FC4B6 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27177D1CBE82E1009FC4B6 /* LogInViewController.swift */; };
+		BA2717801CBE82F0009FC4B6 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27177F1CBE82F0009FC4B6 /* CreateAccountViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA17D55A1CBFA1F300DD3929 /* GissaFlagganViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GissaFlagganViewController.swift; sourceTree = "<group>"; };
+		BA17D55C1CBFB51400DD3929 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		BA17D55E1CBFB5B000DD3929 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BA17D5601CBFC50500DD3929 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BA17D5621CBFC7A400DD3929 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BA17D5641CBFC7C500DD3929 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BA17D5661CBFCAF000DD3929 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		BA2717561CBE7CF5009FC4B6 /* GissaFlaggan.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GissaFlaggan.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2717591CBE7CF5009FC4B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA27175E1CBE7CF5009FC4B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA2717601CBE7CF5009FC4B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA2717631CBE7CF5009FC4B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA2717651CBE7CF5009FC4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA27176B1CBE7D27009FC4B6 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		BA27176D1CBE7D38009FC4B6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BA27176F1CBE7D42009FC4B6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BA2717711CBE7D4A009FC4B6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BA2717731CBE7D57009FC4B6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		BA2717751CBE7D65009FC4B6 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		BA2717771CBE7DA4009FC4B6 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		BA27177D1CBE82E1009FC4B6 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		BA27177F1CBE82F0009FC4B6 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA2717531CBE7CF5009FC4B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA17D5651CBFC7C500DD3929 /* CoreLocation.framework in Frameworks */,
+				BA17D5631CBFC7A400DD3929 /* MapKit.framework in Frameworks */,
+				BA17D5611CBFC50500DD3929 /* AudioToolbox.framework in Frameworks */,
+				BA17D55F1CBFB5B000DD3929 /* AVFoundation.framework in Frameworks */,
+				BA2717761CBE7D65009FC4B6 /* libicucore.tbd in Frameworks */,
+				BA2717741CBE7D57009FC4B6 /* libc++.tbd in Frameworks */,
+				BA2717721CBE7D4A009FC4B6 /* CFNetwork.framework in Frameworks */,
+				BA2717701CBE7D42009FC4B6 /* Security.framework in Frameworks */,
+				BA27176E1CBE7D38009FC4B6 /* SystemConfiguration.framework in Frameworks */,
+				BA27176C1CBE7D27009FC4B6 /* Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA27174D1CBE7CF5009FC4B6 = {
+			isa = PBXGroup;
+			children = (
+				BA17D5641CBFC7C500DD3929 /* CoreLocation.framework */,
+				BA17D5621CBFC7A400DD3929 /* MapKit.framework */,
+				BA17D5601CBFC50500DD3929 /* AudioToolbox.framework */,
+				BA17D55E1CBFB5B000DD3929 /* AVFoundation.framework */,
+				BA2717751CBE7D65009FC4B6 /* libicucore.tbd */,
+				BA2717731CBE7D57009FC4B6 /* libc++.tbd */,
+				BA2717711CBE7D4A009FC4B6 /* CFNetwork.framework */,
+				BA27176F1CBE7D42009FC4B6 /* Security.framework */,
+				BA27176D1CBE7D38009FC4B6 /* SystemConfiguration.framework */,
+				BA2717581CBE7CF5009FC4B6 /* LogInApplication */,
+				BA2717571CBE7CF5009FC4B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA2717571CBE7CF5009FC4B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA2717561CBE7CF5009FC4B6 /* GissaFlaggan.temp_caseinsensitive_rename.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA2717581CBE7CF5009FC4B6 /* LogInApplication */ = {
+			isa = PBXGroup;
+			children = (
+				BA2717591CBE7CF5009FC4B6 /* AppDelegate.swift */,
+				BA2717771CBE7DA4009FC4B6 /* BaseService.swift */,
+				BA27177D1CBE82E1009FC4B6 /* LogInViewController.swift */,
+				BA27177F1CBE82F0009FC4B6 /* CreateAccountViewController.swift */,
+				BA17D55A1CBFA1F300DD3929 /* GissaFlagganViewController.swift */,
+				BA17D5661CBFCAF000DD3929 /* LocationViewController.swift */,
+				BA17D55C1CBFB51400DD3929 /* music.mp3 */,
+				BA27175D1CBE7CF5009FC4B6 /* Main.storyboard */,
+				BA2717601CBE7CF5009FC4B6 /* Assets.xcassets */,
+				BA2717621CBE7CF5009FC4B6 /* LaunchScreen.storyboard */,
+				BA27176B1CBE7D27009FC4B6 /* Firebase.framework */,
+				BA2717651CBE7CF5009FC4B6 /* Info.plist */,
+			);
+			path = LogInApplication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA2717551CBE7CF5009FC4B6 /* GissaFlaggan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2717681CBE7CF5009FC4B6 /* Build configuration list for PBXNativeTarget "GissaFlaggan" */;
+			buildPhases = (
+				BA2717521CBE7CF5009FC4B6 /* Sources */,
+				BA2717531CBE7CF5009FC4B6 /* Frameworks */,
+				BA2717541CBE7CF5009FC4B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GissaFlaggan;
+			productName = LogInApplication;
+			productReference = BA2717561CBE7CF5009FC4B6 /* GissaFlaggan.temp_caseinsensitive_rename.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA27174E1CBE7CF5009FC4B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Henry Aguinaga";
+				TargetAttributes = {
+					BA2717551CBE7CF5009FC4B6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZGKM2V59UB;
+					};
+				};
+			};
+			buildConfigurationList = BA2717511CBE7CF5009FC4B6 /* Build configuration list for PBXProject "GissaFlaggan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA27174D1CBE7CF5009FC4B6;
+			productRefGroup = BA2717571CBE7CF5009FC4B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA2717551CBE7CF5009FC4B6 /* GissaFlaggan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA2717541CBE7CF5009FC4B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2717641CBE7CF5009FC4B6 /* LaunchScreen.storyboard in Resources */,
+				BA17D55D1CBFB51400DD3929 /* music.mp3 in Resources */,
+				BA2717611CBE7CF5009FC4B6 /* Assets.xcassets in Resources */,
+				BA27175F1CBE7CF5009FC4B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA2717521CBE7CF5009FC4B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA17D55B1CBFA1F300DD3929 /* GissaFlagganViewController.swift in Sources */,
+				BA2717801CBE82F0009FC4B6 /* CreateAccountViewController.swift in Sources */,
+				BA27175A1CBE7CF5009FC4B6 /* AppDelegate.swift in Sources */,
+				BA17D5671CBFCAF000DD3929 /* LocationViewController.swift in Sources */,
+				BA2717781CBE7DA4009FC4B6 /* BaseService.swift in Sources */,
+				BA27177E1CBE82E1009FC4B6 /* LogInViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA27175D1CBE7CF5009FC4B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA27175E1CBE7CF5009FC4B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA2717621CBE7CF5009FC4B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA2717631CBE7CF5009FC4B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA2717661CBE7CF5009FC4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA2717671CBE7CF5009FC4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA2717691CBE7CF5009FC4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LogInApplication",
+				);
+				INFOPLIST_FILE = LogInApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henry.aguinaga.LogInApplication;
+				PRODUCT_NAME = GissaFlaggan.temp_caseinsensitive_rename;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BA27176A1CBE7CF5009FC4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LogInApplication",
+				);
+				INFOPLIST_FILE = LogInApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henry.aguinaga.LogInApplication;
+				PRODUCT_NAME = GissaFlaggan.temp_caseinsensitive_rename;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA2717511CBE7CF5009FC4B6 /* Build configuration list for PBXProject "GissaFlaggan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2717661CBE7CF5009FC4B6 /* Debug */,
+				BA2717671CBE7CF5009FC4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2717681CBE7CF5009FC4B6 /* Build configuration list for PBXNativeTarget "GissaFlaggan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2717691CBE7CF5009FC4B6 /* Debug */,
+				BA27176A1CBE7CF5009FC4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA27174E1CBE7CF5009FC4B6 /* Project object */;
+}
