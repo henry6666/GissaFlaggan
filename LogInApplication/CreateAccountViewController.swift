@@ -26,17 +26,6 @@ class CreateAccountViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-    
     @IBAction func createAccountAction(sender: AnyObject) {
         
         let email = self.imailTextfiel.text
@@ -52,7 +41,7 @@ class CreateAccountViewController: UIViewController {
                         if error == nil
                         {
                             NSUserDefaults.standardUserDefaults().setValue(authData.uid, forKey: "uid")
-                            print("Accout created :)")
+                            print("Ditt konto är skapat!")
                             self.dismissViewControllerAnimated(true, completion: nil)
                             
                             
@@ -70,7 +59,7 @@ class CreateAccountViewController: UIViewController {
         }
         else
         {
-            let alert = UIAlertController(title: "Error", message: "Enter Email and Password", preferredStyle: .Alert)
+            let alert = UIAlertController(title: "Error", message: "Skriv ditt Email och lösenord", preferredStyle: .Alert)
             
             let action = UIAlertAction(title: "Ok", style: .Default, handler: nil)
             

@@ -7,27 +7,31 @@
 //
 
 import UIKit
+import iAd
+import AdSupport
 
-class LogInViewController: UIViewController {
+class LogInViewController: UIViewController, ADBannerViewDelegate {
+    
+    
+    
+    
+    @IBOutlet weak var banner: ADBannerView!
+    
     
     @IBOutlet weak var loginButton: UIButton!
-    
     @IBOutlet weak var createAccountButton: UIButton!
-    
-    
     @IBOutlet weak var playButton: UIButton!
-    
-    
     @IBOutlet weak var emailTextfield: UITextField!
-    
     @IBOutlet weak var passwordTextfield: UITextField!
-    
     @IBOutlet weak var logOutButton: UIButton!
     
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.canDisplayBannerAds = true
+        self.banner?.delegate = self
+        self.banner?.hidden = true
+        
         
         
 
@@ -37,6 +41,11 @@ class LogInViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(true)
         
+                
+        
+        
+        
+        
         if NSUserDefaults.standardUserDefaults().valueForKey("uid") != nil && CURRENT_USER.authData != nil
         {
         
@@ -44,13 +53,19 @@ class LogInViewController: UIViewController {
             
         self.playButton.hidden = true
         }
-     
-        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func bannerViewDidLoadAd(banner: ADBannerView!) {
+        self.banner?.hidden = false
+    }
+    
+    func bannerView(banner: ADBannerView!, didFailToReceiveAdWithError error: NSError!) {
+        self.banner?.hidden = true
     }
     
 
@@ -90,12 +105,11 @@ class LogInViewController: UIViewController {
               
             })
 
-        
         }
         
         else {
         
-        let alert = UIAlertController(title: "Error", message: "Enter Email and Password", preferredStyle: .Alert)
+        let alert = UIAlertController(title: "Fel", message: "Skriv ditt namn och lösenord", preferredStyle: .Alert)
         
         let action = UIAlertAction(title: "Ok", style: .Default, handler: nil)
         
@@ -119,15 +133,12 @@ class LogInViewController: UIViewController {
     
     @IBAction func emailTextfieldActionDismiss(sender: AnyObject) {
         self.resignFirstResponder()
-        
-        
+    
     }
     
     @IBAction func paswordTextfieldActionDismiss(sender: AnyObject) {
         self.resignFirstResponder()
-        
-        
-    }
- 
     
+    }
+   
 }

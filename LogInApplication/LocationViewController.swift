@@ -13,29 +13,23 @@ import CoreLocation
 class LocationViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet weak var Mapview: MKMapView!
-    
-    
     @IBOutlet weak var SegmentControl: UISegmentedControl!
     
     
     var manager = CLLocationManager()
-    
-    
-    
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+   
         let pinlocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(59.330423, 18.058287)
         let objectAnn = MKPointAnnotation()
         objectAnn.coordinate = pinlocation
         objectAnn.title = "Stockholm Centrum"
         objectAnn.subtitle = "Stockholm, Sweden"
         self.Mapview.addAnnotation(objectAnn)
-        
-    
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -94,18 +88,6 @@ class LocationViewController: UIViewController, CLLocationManagerDelegate {
         let region = MKCoordinateRegion(center: location, span: span)
         
         Mapview.setRegion(region, animated: true)
-        
-        
+       
     }
-
 }
-
-
-
-
-
-
-
-
-
-
